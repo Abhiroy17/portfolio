@@ -53,27 +53,25 @@
 
       .imageContainer {
         display: flex;
-        flex-direction: column;
-        gap: 24px;
+        justify-content: center;
+        align-items: center;
         flex: 1;
         height: 50%;
         align-items: center;
         @include mobile {
-          width: 100%;
-          max-height: 180px !important;
-          padding-top: 16px !important;
+            display: none;
+        //   width: 100%;
+        // //   max-height: 250px !important;
+        //   padding-top: 16px !important;
         }
-        h1{
-            @include mobile {
-                font-size: 24px;
-              } 
-        }
+    
         img {
           width: 100%;
-          height: 90%;
+          height: 100%;
           object-fit: cover;
-
           @include mobile {
+            width: 80%;
+          height: 80%;
             object-fit: contain;
           }
         }
@@ -84,17 +82,18 @@
         display: flex;
         flex-grow: 2 !important;
         flex-direction: column;
-        gap: 24px;
+        gap: 20px;
 
         @include mobile {
           transform: none !important;
-          padding: 10px;
+          padding: 25px 10px 10px 10px;
           align-items: center;
           text-align: center;
+          gap: 18px
         }
 
         h2 {
-          font-size: 72px;
+          font-size: 36px;
 
           @include mobile {
             font-size: 20px;
@@ -114,7 +113,7 @@
           font-size: 20px;
 
           @include mobile {
-            font-size: 18px !important;
+            font-size: 16px !important;
             padding: 0;
             margin: -18px !important;
           }
@@ -180,6 +179,9 @@
             cursor: pointer;
             color: #01052b;
             font-weight: 600;
+            @include mobile {
+                font-size: 14px;
+              }
           }
         }
       }

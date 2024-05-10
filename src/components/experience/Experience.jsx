@@ -37,9 +37,10 @@ const SingleItem = ({ item }) => {
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
             <img src={item.img} alt={item.alt} />
-            <h1>Edgeverve Systems(Infosys Finacle)</h1>
+            
           </div>
           <motion.div className="textContainer" style={{ y }}>
+            <h2>Edgeverve Systems(Infosys Finacle)</h2>
             <h2>{item.title}</h2>
 
             <ul>
