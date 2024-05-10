@@ -7,6 +7,7 @@ const items = [
     id: 1,
     title: "Product Developer",
     img: "/edgeverve-logo.png",
+    alt: "Edgeverve Systems logo",
     desc: [
         `Finacle Treasury (Treasury Management System Web App)`,
         `2021 - Present`,
@@ -35,7 +36,8 @@ const SingleItem = ({ item }) => {
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+            <img src={item.img} alt={item.alt} />
+            <h1>Edgeverve Systems(Infosys Finacle)</h1>
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
@@ -51,6 +53,7 @@ const SingleItem = ({ item }) => {
               <span className="chip">JavaScript</span>
               <span className="chip">Loopback 3</span>
               <span className="chip">Webpack 5</span>
+              <span className="chip">Node.js</span>
             </div>
           </motion.div>
         </div>

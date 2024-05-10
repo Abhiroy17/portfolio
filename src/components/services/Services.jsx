@@ -60,7 +60,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>UI</h2>
+          <motion.h2 whileHover={{ color: "orange" }}>UI</motion.h2>
           <p>
             I prioritize user experience above all ensuring that every design enchances usability alongside security,performance & speed.
           </p>
@@ -69,7 +69,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Backend</h2>
+          <motion.h2 whileHover={{ color: "orange" }}>Backend</motion.h2>
           <p>
             As a frontend-focused developer have a fair backend experience in Node.js & loopback 3, so you don't need to scratch your head why your API doesn't work & blame the UI devs
           </p>
@@ -78,7 +78,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Collaboration</h2>
+          <motion.h2 whileHover={{ color: "orange" }}>Collaboration</motion.h2>
           <p>
             I thrive in team environments, communicating effectively with UX Designers, Developers and stakeholders to get things done.
           </p>
@@ -88,7 +88,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Fun</h2>
+          <motion.h2 whileHover={{ color: "orange" }}>Fun</motion.h2>
           <p>
             Boring dev? Ain't Have Time For that! I love having fun apart from work. Keeping healthy, exercising, playing sports , Binge watching is what fuels my inner developer & geeky side, pushes me to keep going. 
           </p>

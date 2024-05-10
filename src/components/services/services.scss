@@ -100,7 +100,8 @@
     display: flex;
     max-width: 1366px;
     margin: auto;
-
+    background-color: lightgray;
+     color: black;
     @include mobile {
       flex-direction: column;
       width: 100%;
@@ -108,7 +109,7 @@
 
     .box {
       padding: 50px;
-      border: 0.5px solid gray;
+      // border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
       justify-content: space-between;

@@ -19,15 +19,15 @@ const Navbar = () => {
           {/* <a href="#">
             <img src="/facebook.png" alt="" />
           </a> */}
-          <a href="https://leetcode.com/u/abhi17r/">
+          <motion.a whileHover={{ scale: 1.3 }} href="https://leetcode.com/u/abhi17r/">
             <img src="/leetcode.png" alt="leetcode profile" />
-          </a>
-          <a href="https://www.linkedin.com/in/abhijit-roy-a873601b0/">
+          </motion.a>
+          <motion.a whileHover={{ scale: 1.3 }} href="https://www.linkedin.com/in/abhijit-roy-a873601b0/">
             <img src="/linkedin.png" alt="linkedin profile" />
-          </a>
-          <a href="https://github.com/Abhiroy17">
+          </motion.a>
+          <motion.a whileHover={{ scale: 1.3 }} href="https://github.com/Abhiroy17">
             <img id="github" src="/github.png" alt="github profile" />
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>

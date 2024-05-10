@@ -48,19 +48,26 @@
 
       @include mobile {
         flex-direction: column;
-        gap: 0 !important;
+        gap: 25px !important;
       }
 
       .imageContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
         flex: 1;
         height: 50%;
-
+        align-items: center;
         @include mobile {
           width: 100%;
           max-height: 180px !important;
           padding-top: 16px !important;
         }
-
+        h1{
+            @include mobile {
+                font-size: 24px;
+              } 
+        }
         img {
           width: 100%;
           height: 90%;
@@ -90,7 +97,7 @@
           font-size: 72px;
 
           @include mobile {
-            font-size: 36px;
+            font-size: 20px;
           }
         }
 
