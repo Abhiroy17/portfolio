@@ -55,16 +55,16 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <div className="btnContainer">
-              {item.url && (
-                <button>
-                  <a href={item.url}>Live Demo</a>
-                </button>
-              )}
-              {item.githubUrl && (
-                <button>
-                  <a href={item.githubUrl}>See Code</a>
-                </button>
-              )}
+              {item.url && 
+                <a href={item.url} target="_blank">
+                 Live Demo
+                </a>
+              }
+              {item.githubUrl && 
+                <a href={item.githubUrl} target="_blank">
+                  See Code 
+                </a>
+              }
             </div>
           </motion.div>
         </div>
